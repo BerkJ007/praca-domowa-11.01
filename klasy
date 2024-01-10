@@ -1,0 +1,63 @@
+class Ja:
+    def __init__(self, Imie, wiek):
+        self.imie = Imie
+        self.wiek = wiek
+
+
+    def informacje(self):
+        print(f"Ja {self.imie} wiek {self.wiek}")
+
+
+# wywołanie tej że klasy
+Ja = Ja("Kuba", 15)
+Ja.informacje()
+
+class Hamster:
+    def __init__(self, Imie, wiek):
+        self.imie = Imie
+        self.wiek = wiek
+
+
+    def informacje(self):
+        print(f"hamster {self.imie} wiek {self.wiek}")
+
+
+# wywołanie tej że klasy
+hamster = hamster("filip", 2)
+hamster.informacje()
+
+
+
+
+class dom:
+    def __init__(self, gdzie, wiek, jaki):
+        self.gdzie = gdzie
+        self.wiek = wiek
+        self.jaki = jaki
+
+
+    def informacje(self):
+        print(f"dom {self.gdzie} wiek {self.wiek} jaki {self.jaki}")
+
+
+# wywołanie tej że klasy
+dom = dom("przy ulicy", 9, "duży")
+dom.informacje()
+
+
+
+class Nauczyciel od matematyki:
+    def __init__(self, Imie, wiek, wyksztalcenie, ocena):
+        self.imie = Imie
+        self.wiek = wiek
+        self.wyksztalcenie = wyksztalcenie
+        self.ocena - oecna
+
+
+    def informacje(self):
+        print(f"Nauczyciel od matematyki {self.imie} wiek {self.wiek} wyksztalcenie {self.wyksztalcenie} ocena {self.ocena}")
+
+
+# wywołanie tej że klasy
+Nauczyciel od matematyki = Nauczyciel od matematyki("Japycz", 68,"uniwersytet", 9)
+Nauczyciel od matematyki.informacje()
